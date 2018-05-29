@@ -22,10 +22,7 @@ public class Circle : MonoBehaviour
         {
             addSpeed += 40f;
             score++;
-           // Debug.Log("wynik: " + score);
-
         }
-      //  Debug.Log("wynik: " + score);
         transform.Rotate(new Vector3(0, 0, addSpeed * Time.deltaTime));
     }
 }
