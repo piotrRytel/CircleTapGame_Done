@@ -26,7 +26,7 @@ public class HighscoreOnGameOver : MonoBehaviour {
     public void Wynik()
     {
         // Get score from ScoreInGame
-        scoreLast = ScoreInGame.score;
+        scoreLast = Circle.score;
 
         // save score to memory and compare with last score
         if (scoreLast > PlayerPrefs.GetInt("Highscore", 0))
